@@ -28,3 +28,17 @@ https://github.com/conmeo111/Project1/blob/master/indexProcessed.csv
 ## Connect to EC2 from local computer
 When you create instance on EC2, remember to create Key pair and download it
 
+Make sure you are on the directory where Kay pair has downloaded
+Run SSH client: 
+From EC2> Instances> Instance Id> Connect to instance
+Copy SSH client, example:
+  ```
+  $ ssh -i "key-pair-name.pem" ec2-user@ec2-12-345-67-890.ap-region.compute.amazonaws.com
+  ```
+
+Now you can download and install things you need on this virtual computer, such as: Apache Kafka, Java Enviroment.
+
+
+
+
+
