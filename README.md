@@ -25,4 +25,6 @@ You can use any dataset, it would be better if you have access to the real-time 
 Here is the dataset i used:
 https://github.com/conmeo111/Project1/blob/master/indexProcessed.csv
 
+## Connect to EC2 from local computer
+When you create instance on EC2, remember to create Key pair and download it
 
