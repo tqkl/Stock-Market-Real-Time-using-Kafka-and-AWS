@@ -32,10 +32,12 @@ Make sure you are on the directory where Kay pair has downloaded
 
 Run SSH client: 
 From EC2> Instances> Instance Id> Connect to instance
-Copy SSH client, example:
+
+Copy SSH client and run it, example:
   ```
   $ ssh -i "key-pair-name.pem" ec2-user@ec2-12-345-67-890.ap-region.compute.amazonaws.com
   ```
+
 
 Now you can download and install things you need on this virtual computer, such as: Apache Kafka, Java Enviroment.
 
