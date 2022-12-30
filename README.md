@@ -31,7 +31,7 @@ When you create instance on EC2, remember to create Key pair and download it
 Make sure you are on the directory where Kay pair has downloaded
 
 Run SSH client: 
-From EC2> Instances> Instance Id> Connect to instance
+From EC2> Instances> Instance ID> Connect> Copy SSH client
 
 Copy SSH client and run it, example:
   ```
@@ -40,6 +40,15 @@ Copy SSH client and run it, example:
 
 
 Now you can download and install things you need on this virtual computer, such as: Apache Kafka, Java Enviroment.
+
+Remember edit security groups on EC2, modify AWS IAM to connect between EC2 and S3
+
+Attach AWS S3 link to the script where you want to catch data
+Example:
+```
+$ df.to_csv('s3://airflow-bucket-luan/refined_tweets.csv')  
+
+```
 
 
 
